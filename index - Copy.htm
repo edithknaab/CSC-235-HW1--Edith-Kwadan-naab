@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+}
+* {
+  box-sizing: border-box;
+}
+body 
+{margin: 0; height: 100%; overflow: hidden}
+
+
+.column {
+  float:left;
+  width:4%;
+  padding-top:40px;
+  padding:1px;
+  
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+
+
+p3{
+  text-shadow: 2px 1px black;
+  font-size: 45px;
+font-style: italic;
+  margin-left:490px;
+
+  }
+
+
+
+img{
+padding-left:560px;
+}
+
+p {
+  border-style: inset;
+  border-width: 3px;
+  margin-top: 160px;
+  margin-left: 250px ;
+  paddin: 15px;
+  height: 160px;
+  padding:5px;
+overflow: scroll;
+
+  }
+p9 {
+  margin-left: 720px;
+  line-height:65px;
+border-color: grey;
+color: white;
+text-decoration: underline;
+padding:2px;
+
+  }
+p8 {
+margin-left:30px;
+border-color: grey;
+border-top:15;
+color: white;
+text-decoration: underline;
+padding:2px;
+
+  }
+
+p1{
+   height: 1px;
+   font-size: 18px;
+font-style: italic;
+   border-width: 4px;
+   border-style: solid;
+   line-height:60px;
+   margin-left:960px;
+   padding-left: 10px;
+   padding-right:10px;
+   padding-top:3px;
+   padding-bottom: 5px;
+   background-color: #DDA0DD;
+   color:DarkBlue;
+
+   
+}
+
+table{
+position: absolute;
+padding:5px;
+border: dotted 10px DarkBlue; 
+
+}
+
+th,td{
+ border: 1px solid black;
+ border-color: #0000ff;
+ border-width: 2px;
+ background-color:DarkBlue;
+
+
+
+
+}
+
+table, th, td {
+  
+  color: white;
+  font-size: 100%;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline;
+  margin-top:20px;
+  line-height:25px;
+  margin-left:70px;
+ padding-left:17px;
+
+
+ 
+  
+}
+.bottom{
+background-image:linear-gradient(MediumSlateBlue, black);
+}
+
+p0{
+font-family: Arial;
+font-style: italic;
+
+}
+
+.middle{
+padding-top:50px;
+margin-left:150px;
+}
+p.inset {border-style: inset;}
+p9.inset {border-style: inset;}
+p8.inset {border-style: inset;}
+p1.solid{border-style:solid;}
+
+</style>
+
+<body style="background-color:MediumSlateBlue;">
+
+<p3 style= "color:blue;"> Welcome to the Town of Oz</p3>
+
+
+<p1 class = "solid"> Select</p1>
+
+
+<div class="row">
+  <div class="column">
+    <img src="bus.gif"  style="width:100%">
+  </div>
+  <div class="column">
+    <img src="cul.gif"  style="width:100%">
+  </div>
+  <div class="column">
+    <img src="edu.gif" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="emp.gif"  style="width:100%">
+  </div>
+  <div class="column">
+    <img src="emr.gif"  style="width:100%">
+  </div>
+  <div class="column">
+    <img src="hlt.gif" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="law.gif"  style="width:100%">
+  </div>
+  <div class="column">
+    <img src="tra.gif"  style="width:100%">
+  </div>
+</div>
+
+<table style= "width:10%">
+  <tr>
+    <td> <img src="arrow.gif"  style="position:absolute; right:100px;width:15px;height:15px;"> Home</td>  
+  </tr>
+  <tr>
+    <td> <img src="arrow.gif"  style="position:absolute;right:100px;width:15px;height:15px;">Events</td>
+  </tr>
+  <tr>
+    <td> <img src="arrow.gif"style="position:absolute;right:100px;width:15px;height:15px;">Direction</td>
+  </tr>
+  <tr>
+    <td> <img src="arrow.gif"  style="position:absolute; right:100px;width:15px;height:15px;">Weather</td>
+  </tr>
+   <tr>
+    <td> <img src="arrow.gif"  style="position:absolute; right:100px;width:15px;height:15px;">Wizards</td>
+  </tr>
+</table>
+
+
+<img class="middle" src="witch.jpg" style="width:130px;height:130px;">
+<p0> Welcome to Oz! </p0>
+
+
+
+<p class="inset"> Info Panel</p>
+
+<div class="bottom">
+<p9 class="inset"> email </p9>
+<p8 class="inset"> about </p8>
+
+</div>
+
+
+</body>
+</html>
